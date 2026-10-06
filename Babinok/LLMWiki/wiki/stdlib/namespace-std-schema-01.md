@@ -1,0 +1,47 @@
+# Std::Schema
+
+> Sources: 1С — документация 1С:Предприятие.Элемент, версия `10.0`
+> Raw: [ftpsource-ru-a43e85e4ee35-d51a46380b7991bd](../../raw/text-10.0/ftpsource-ru-a43e85e4ee35-d51a46380b7991bd.md); [ftpdestination-ru-fd6e5b762afe-cb29f33caf029869](../../raw/text-10.0/ftpdestination-ru-fd6e5b762afe-cb29f33caf029869.md); [http-ru-ca84287d0684-ec1b4e90b2fea412](../../raw/text-10.0/http-ru-ca84287d0684-ec1b4e90b2fea412.md); [jmssource-ru-5b677d0081a9-54b63e9a920b8f03](../../raw/text-10.0/jmssource-ru-5b677d0081a9-54b63e9a920b8f03.md); [jmsdestination-ru-886444a7d2df-073463c689bc8f34](../../raw/text-10.0/jmsdestination-ru-886444a7d2df-073463c689bc8f34.md); [kafkasource-ru-c56e6ff7a433-a62263b0a0a67948](../../raw/text-10.0/kafkasource-ru-c56e6ff7a433-a62263b0a0a67948.md); [kafkadestination-ru-0a2daa6ce1ff-d857d92881ed5442](../../raw/text-10.0/kafkadestination-ru-0a2daa6ce1ff-d857d92881ed5442.md); [rabbitmqsource-ru-04b97d31ad6b-6f5597e1a5cacef5](../../raw/text-10.0/rabbitmqsource-ru-04b97d31ad6b-6f5597e1a5cacef5.md); [rabbitmqdestination-ru-2854b502788c-22a6a644334d54a6](../../raw/text-10.0/rabbitmqdestination-ru-2854b502788c-22a6a644334d54a6.md); [sql-ru-907f0cb12bde-b821e206bb5c99b7](../../raw/text-10.0/sql-ru-907f0cb12bde-b821e206bb5c99b7.md); [participantsgroup-ru-01bdfe928fa9-ea9ee909f94f65eb](../../raw/text-10.0/participantsgroup-ru-01bdfe928fa9-ea9ee909f94f65eb.md); [participantsgroups-2b105bcb6550-5d72bba831836b99](../../raw/text-10.0/participantsgroups-2b105bcb6550-5d72bba831836b99.md); [channel1csource-ru-ac34f562fcf8-400e5df61de2c311](../../raw/text-10.0/channel1csource-ru-ac34f562fcf8-400e5df61de2c311.md); [channel1cdestination-ru-5a181f76630a-a79a6a63e48af65c](../../raw/text-10.0/channel1cdestination-ru-5a181f76630a-a79a6a63e48af65c.md); [contentbasedrouter-ru-9eb143181111-8f3df1337e9e92c6](../../raw/text-10.0/contentbasedrouter-ru-9eb143181111-8f3df1337e9e92c6.md); [schemaroute-89110a4fd23d-a1c60ab85ee972eb](../../raw/text-10.0/schemaroute-89110a4fd23d-a1c60ab85ee972eb.md); [routes-1e4669b02852-585bc84297872172](../../raw/text-10.0/routes-1e4669b02852-585bc84297872172.md); [metric-80a8cc86b7df-a71237a067f8422e](../../raw/text-10.0/metric-80a8cc86b7df-a71237a067f8422e.md); [metrics-01e1c4b3263b-68b9b739cb093ef1](../../raw/text-10.0/metrics-01e1c4b3263b-68b9b739cb093ef1.md); [esbqueuesource-ru-b5a2104cfe01-0aca16dc69e6e5b6](../../raw/text-10.0/esbqueuesource-ru-b5a2104cfe01-0aca16dc69e6e5b6.md); [esbqueuedestination-ru-e38871405326-1edcac16304af0ca](../../raw/text-10.0/esbqueuedestination-ru-e38871405326-1edcac16304af0ca.md); [parameter-ru-b403ca746192-ef54aa0f69ee7843](../../raw/text-10.0/parameter-ru-b403ca746192-ef54aa0f69ee7843.md); [metricparameter-ru-4f057d44abef-9a346396234c9b30](../../raw/text-10.0/metricparameter-ru-4f057d44abef-9a346396234c9b30.md); [parameters-60e6a26235fa-b071422c7f355e9b](../../raw/text-10.0/parameters-60e6a26235fa-b071422c7f355e9b.md); [parameters-80af971d2d56-67674f93539fafd6](../../raw/text-10.0/parameters-80af971d2d56-67674f93539fafd6.md); [programmaticsource-ru-72d424dfebce-09084e5ebcbbad13](../../raw/text-10.0/programmaticsource-ru-72d424dfebce-09084e5ebcbbad13.md); [splitter-ru-3afc04263c71-bf957b088fd0520d](../../raw/text-10.0/splitter-ru-3afc04263c71-bf957b088fd0520d.md); [links-417773243acb-e17679b60e2b9972](../../raw/text-10.0/links-417773243acb-e17679b60e2b9972.md); [schemagrouplink-ru-b3a8d300ba44-cdbf5517e2377061](../../raw/text-10.0/schemagrouplink-ru-b3a8d300ba44-cdbf5517e2377061.md); [schema-524cf8e5b387-44545487d316d9ea](../../raw/text-10.0/schema-524cf8e5b387-44545487d316d9ea.md); [timer-ru-76de20ebcf27-d5561691c7503775](../../raw/text-10.0/timer-ru-76de20ebcf27-d5561691c7503775.md); [point-ru-1e11154d010c-b4a8a4963dfa12c3](../../raw/text-10.0/point-ru-1e11154d010c-b4a8a4963dfa12c3.md); [points-81eaab9b87a4-8649eb995ef30e69](../../raw/text-10.0/points-81eaab9b87a4-8649eb995ef30e69.md); [translator-ru-e20309abf2b2-4669d44889b30780](../../raw/text-10.0/translator-ru-e20309abf2b2-4669d44889b30780.md); [nodes-e7855722d93e-9161f2fd4babf3a1](../../raw/text-10.0/nodes-e7855722d93e-9161f2fd4babf3a1.md); [filesource-ru-5279f8af1efd-e17e7f5c81d96a66](../../raw/text-10.0/filesource-ru-5279f8af1efd-e17e7f5c81d96a66.md); [filedestination-ru-be5b795b27a8-8dac655545814e0b](../../raw/text-10.0/filedestination-ru-be5b795b27a8-8dac655545814e0b.md)
+> Updated: 2026-10-05
+
+Версия: `10.0`.
+
+[Пространства имён](namespaces.md)
+
+- [FtpИсточник — Схема процесса интеграции: Nodes](../integration/ftpsource-ru-a43e85e4ee35.md)
+- [FtpНазначение — Схема процесса интеграции: Nodes](../integration/ftpdestination-ru-fd6e5b762afe.md)
+- [Http — Схема процесса интеграции: Nodes](../integration/http-ru-ca84287d0684.md)
+- [JmsИсточник — Схема процесса интеграции: Nodes](../integration/jmssource-ru-5b677d0081a9.md)
+- [JmsНазначение — Схема процесса интеграции: Nodes](../integration/jmsdestination-ru-886444a7d2df.md)
+- [KafkaИсточник — Схема процесса интеграции: Nodes](../integration/kafkasource-ru-c56e6ff7a433.md)
+- [KafkaНазначение — Схема процесса интеграции: Nodes](../integration/kafkadestination-ru-0a2daa6ce1ff.md)
+- [RabbitMqИсточник — Схема процесса интеграции: Nodes](../integration/rabbitmqsource-ru-04b97d31ad6b.md)
+- [RabbitMqНазначение — Схема процесса интеграции: Nodes](../integration/rabbitmqdestination-ru-2854b502788c.md)
+- [Sql — Схема процесса интеграции: Nodes](../integration/sql-ru-907f0cb12bde.md)
+- [ГруппаУчастников — Схема процесса интеграции: ParticipantsGroups](../integration/participantsgroup-ru-01bdfe928fa9.md)
+- [ГруппыУчастников — Схема процесса интеграции](../integration/participantsgroups-2b105bcb6550.md)
+- [Канал1СИсточник — Схема процесса интеграции: Nodes](../integration/channel1csource-ru-ac34f562fcf8.md)
+- [Канал1СНазначение — Схема процесса интеграции: Nodes](../integration/channel1cdestination-ru-5a181f76630a.md)
+- [МаршрутизаторПоСодержимому — Схема процесса интеграции: Nodes](../integration/contentbasedrouter-ru-9eb143181111.md)
+- [МаршрутСхемы — Схема процесса интеграции: Routes](../integration/schemaroute-89110a4fd23d.md)
+- [Маршруты — Схема процесса интеграции](../integration/routes-1e4669b02852.md)
+- [Метрика — Схема процесса интеграции: Metrics](../integration/metric-80a8cc86b7df.md)
+- [Метрики — Схема процесса интеграции](../integration/metrics-01e1c4b3263b.md)
+- [ОчередьШиныИсточник — Схема процесса интеграции: Nodes](../integration/esbqueuesource-ru-b5a2104cfe01.md)
+- [ОчередьШиныНазначение — Схема процесса интеграции: Nodes](../integration/esbqueuedestination-ru-e38871405326.md)
+- [Параметр — Схема процесса интеграции: Parameters](../integration/parameter-ru-b403ca746192.md)
+- [ПараметрМетрики — Схема процесса интеграции: Parameters](../integration/metricparameter-ru-4f057d44abef.md)
+- [Параметры — Схема процесса интеграции](../integration/parameters-60e6a26235fa.md)
+- [Параметры — Схема процесса интеграции: Metric](../integration/parameters-80af971d2d56.md)
+- [ПрограммныйИсточник — Схема процесса интеграции: Nodes](../integration/programmaticsource-ru-72d424dfebce.md)
+- [Разделитель — Схема процесса интеграции: Nodes](../integration/splitter-ru-3afc04263c71.md)
+- [Связи — Схема процесса интеграции](../integration/links-417773243acb.md)
+- [СсылкаНаГруппуСхемы — Схема процесса интеграции: Links](../integration/schemagrouplink-ru-b3a8d300ba44.md)
+- [Схема — Каталог справочника: IntegrationProcessSchema](../integration/schema-524cf8e5b387.md)
+- [Таймер — Схема процесса интеграции: Nodes](../integration/timer-ru-76de20ebcf27.md)
+- [Точка — Схема процесса интеграции: Points](../integration/point-ru-1e11154d010c.md)
+- [Точки — Схема процесса интеграции: SchemaRoute](../integration/points-81eaab9b87a4.md)
+- [Транслятор — Схема процесса интеграции: Nodes](../integration/translator-ru-e20309abf2b2.md)
+- [Узлы — Схема процесса интеграции](../integration/nodes-e7855722d93e.md)
+- [ФайлИсточник — Схема процесса интеграции: Nodes](../integration/filesource-ru-5279f8af1efd.md)
+- [ФайлНазначение — Схема процесса интеграции: Nodes](../integration/filedestination-ru-be5b795b27a8.md)

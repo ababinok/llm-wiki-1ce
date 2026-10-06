@@ -1,0 +1,31 @@
+# Пространства имён XBSL
+
+> Sources: 1С — документация 1С:Предприятие.Элемент, версия `10.0`
+> Raw: [ftp-0f2eb1c44972-b88f73c43a80d5e0](../../raw/text-10.0/ftp-0f2eb1c44972-b88f73c43a80d5e0.md); [http-7a0208cd0480-8b61856455aa41ae](../../raw/text-10.0/http-7a0208cd0480-8b61856455aa41ae.md); [httpservices-a7d3ec06f975-d839acb930a059e4](../../raw/text-10.0/httpservices-a7d3ec06f975-d839acb930a059e4.md); [json-c14cfb07c84b-940006ab0675f2dd](../../raw/text-10.0/json-c14cfb07c84b-940006ab0675f2dd.md); [soapservices-55f8f2097e04-51f8efcf5afffae1](../../raw/text-10.0/soapservices-55f8f2097e04-51f8efcf5afffae1.md); [ssh-a87cdb6779a9-45396d30e29ff217](../../raw/text-10.0/ssh-a87cdb6779a9-45396d30e29ff217.md); [administration-b6098836859e-0229b22cb7403d60](../../raw/text-10.0/administration-b6098836859e-0229b22cb7403d60.md); [xml-304a522fefdf-291576a984983402](../../raw/text-10.0/xml-304a522fefdf-291576a984983402.md); [dom-b99ae92cd484-d605a2b44245e937](../../raw/text-10.0/dom-b99ae92cd484-d605a2b44245e937.md); [xpath-e9ab015f723d-bb79184be2a7b259](../../raw/text-10.0/xpath-e9ab015f723d-bb79184be2a7b259.md); [transformation-e805662491bb-58969409c93a0efe](../../raw/text-10.0/transformation-e805662491bb-58969409c93a0efe.md); [validation-c6dbf204280f-72463458d592a4f2](../../raw/text-10.0/validation-c6dbf204280f-72463458d592a4f2.md); [integrationbus-47a88b720322-73b144d5f005a2c7](../../raw/text-10.0/integrationbus-47a88b720322-73b144d5f005a2c7.md); [interface-12a394773b39-3506f3978ed0fc6e](../../raw/text-10.0/interface-12a394773b39-3506f3978ed0fc6e.md); [events-0eccf43873da-e41ef84dfc6ea272](../../raw/text-10.0/events-0eccf43873da-e41ef84dfc6ea272.md); [integrableapplications-fb6cab06cdcb-9b3dde56ba76bbd4](../../raw/text-10.0/integrableapplications-fb6cab06cdcb-9b3dde56ba76bbd4.md); [exchangeplans-a689ca96e9c9-95ba044a17b16c79](../../raw/text-10.0/exchangeplans-a689ca96e9c9-95ba044a17b16c79.md); [collaborationsystem-a87edf727e1d-b3b057acf2473190](../../raw/text-10.0/collaborationsystem-a87edf727e1d-b3b057acf2473190.md); [email-b3c1b4615997-f2b233241616d820](../../raw/text-10.0/email-b3c1b4615997-f2b233241616d820.md)
+> Updated: 2026-10-05
+
+Версия: `10.0`.
+
+[Оглавление раздела](overview.md) · [Общий индекс](../index.md)
+
+| Статья | Краткое описание | Источник |
+| --- | --- | --- |
+| [Стд::Ftp — Пространство имён XBSL: Std](../stdlib/ftp-0f2eb1c44972.md) | Исключение работы по протоколу FTP. | [Raw](../../raw/text-10.0/ftp-0f2eb1c44972-b88f73c43a80d5e0.md) |
+| [Стд::Http — Пространство имён XBSL: Std](http-7a0208cd0480.md) | Объект для работы с внешними ресурсами по протоколу HTTP. | [Raw](../../raw/text-10.0/http-7a0208cd0480-8b61856455aa41ae.md) |
+| [Стд::HttpСервисы — Пространство имён XBSL: Std](httpservices-a7d3ec06f975.md) | Типы, обеспечивающие работу HTTP-сервисов. | [Raw](../../raw/text-10.0/httpservices-a7d3ec06f975-d839acb930a059e4.md) |
+| [Стд::Json — Пространство имён XBSL: Std](json-c14cfb07c84b.md) | Аннотация JSON. | [Raw](../../raw/text-10.0/json-c14cfb07c84b-940006ab0675f2dd.md) |
+| [Стд::SoapСервисы — Пространство имён XBSL: Std](soapservices-55f8f2097e04.md) | Базовый тип Soap-сервиса. | [Raw](../../raw/text-10.0/soapservices-55f8f2097e04-51f8efcf5afffae1.md) |
+| [Стд::Ssh — Пространство имён XBSL: Std](ssh-a87cdb6779a9.md) | Исключение работы по протоколу SFTP. | [Raw](../../raw/text-10.0/ssh-a87cdb6779a9-45396d30e29ff217.md) |
+| [Стд::V8::Администрирование — Пространство имён XBSL: Std / V8](../stdlib/administration-b6098836859e.md) | Типы для администрирования сервера V8. | [Raw](../../raw/text-10.0/administration-b6098836859e-0229b22cb7403d60.md) |
+| [Стд::Xml — Пространство имён XBSL: Std](xml-304a522fefdf.md) | Объект для работы с данными в формате Property List. | [Raw](../../raw/text-10.0/xml-304a522fefdf-291576a984983402.md) |
+| [Стд::Xml::Dom — Пространство имён XBSL: Std / Xml](dom-b99ae92cd484.md) | Типы для работы с объектной моделью документа XML DOM. | [Raw](../../raw/text-10.0/dom-b99ae92cd484-d605a2b44245e937.md) |
+| [Стд::Xml::XPath — Пространство имён XBSL: Std / Xml](xpath-e9ab015f723d.md) | Типы для поиска XPath в XML-документе. | [Raw](../../raw/text-10.0/xpath-e9ab015f723d-bb79184be2a7b259.md) |
+| [Стд::Xml::Преобразование — Пространство имён XBSL: Std / Xml](transformation-e805662491bb.md) | Типы для преобразования XML-документа. | [Raw](../../raw/text-10.0/transformation-e805662491bb-58969409c93a0efe.md) |
+| [Стд::Xml::Проверка — Пространство имён XBSL: Std / Xml](validation-c6dbf204280f.md) | Исключение, возникающее при проверке документа XML. | [Raw](../../raw/text-10.0/validation-c6dbf204280f-72463458d592a4f2.md) |
+| [Стд::ИнтеграционнаяШина — Пространство имён XBSL: Std](integrationbus-47a88b720322.md) | Типы для работы с интеграционной шиной. | [Raw](../../raw/text-10.0/integrationbus-47a88b720322-73b144d5f005a2c7.md) |
+| [Стд::ИнтеграционнаяШина::Интерфейс — Пространство имён XBSL: Std / IntegrationBus](../interface/interface-12a394773b39.md) | Типы пользовательского интерфейса интеграционной шины. | [Raw](../../raw/text-10.0/interface-12a394773b39-3506f3978ed0fc6e.md) |
+| [Стд::ИнтеграционнаяШина::События — Пространство имён XBSL: Std / IntegrationBus](events-0eccf43873da.md) | Типы, описывающие события журнала событий в интеграционной шине. | [Raw](../../raw/text-10.0/events-0eccf43873da-e41ef84dfc6ea272.md) |
+| [Стд::ИнтегрируемыеПриложения — Пространство имён XBSL: Std](../stdlib/integrableapplications-fb6cab06cdcb.md) | Типы для работы с интегрируемыми приложениями. | [Raw](../../raw/text-10.0/integrableapplications-fb6cab06cdcb-9b3dde56ba76bbd4.md) |
+| [Стд::ПланыОбмена — Пространство имён XBSL: Std](exchangeplans-a689ca96e9c9.md) | Варианты обработки данных выполняемой при выгрузке данных. | [Raw](../../raw/text-10.0/exchangeplans-a689ca96e9c9-95ba044a17b16c79.md) |
+| [Стд::СистемаВзаимодействия — Пространство имён XBSL: Std](collaborationsystem-a87edf727e1d.md) | Типы для работы с системой взаимодействия. | [Raw](../../raw/text-10.0/collaborationsystem-a87edf727e1d-b3b057acf2473190.md) |
+| [Стд::ЭлектроннаяПочта — Пространство имён XBSL: Std](../stdlib/email-b3c1b4615997.md) | Типы для работы с электронной почтой. | [Raw](../../raw/text-10.0/email-b3c1b4615997-f2b233241616d820.md) |

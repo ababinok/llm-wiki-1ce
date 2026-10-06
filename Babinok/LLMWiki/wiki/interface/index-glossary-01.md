@@ -1,0 +1,24 @@
+# Термины
+
+> Sources: 1С — документация 1С:Предприятие.Элемент, версия `10.0`
+> Raw: [automatic-interface-df2ea881a675-63226f4f9962580e](../../raw/text-10.0/automatic-interface-df2ea881a675-63226f4f9962580e.md); [base-component-0ef2c5805773-d1f691d41f69554e](../../raw/text-10.0/base-component-0ef2c5805773-d1f691d41f69554e.md); [web-interface-25dbf3b8529c-d3b8b5fa4d374cc9](../../raw/text-10.0/web-interface-25dbf3b8529c-d3b8b5fa4d374cc9.md); [additional-command-interface-51c3d7fa0967-f24ea1185494c56d](../../raw/text-10.0/additional-command-interface-51c3d7fa0967-f24ea1185494c56d.md); [command-interface-0da6ee68041e-37d03aa21c4e092c](../../raw/text-10.0/command-interface-0da6ee68041e-37d03aa21c4e092c.md); [component-eaceb50bdd95-61a4d872fd34d5a5](../../raw/text-10.0/component-eaceb50bdd95-61a4d872fd34d5a5.md); [interface-component-79f4346c6140-c1f9a65db520fe1c](../../raw/text-10.0/interface-component-79f4346c6140-c1f9a65db520fe1c.md); [mobile-interface-842a75f7790c-e23299cf0a9d6af2](../../raw/text-10.0/mobile-interface-842a75f7790c-e23299cf0a9d6af2.md); [user-interface-49be894cb32f-3f9b2b0747faccf3](../../raw/text-10.0/user-interface-49be894cb32f-3f9b2b0747faccf3.md); [system-component-6de48ba8685c-2b633b37b8bc9bea](../../raw/text-10.0/system-component-6de48ba8685c-2b633b37b8bc9bea.md); [form-4c22a2fe0e87-61580a8e6ef376f5](../../raw/text-10.0/form-4c22a2fe0e87-61580a8e6ef376f5.md); [user-form-be04bb5c5e7f-c157abe07807cf7a](../../raw/text-10.0/user-form-be04bb5c5e7f-c157abe07807cf7a.md)
+> Updated: 2026-10-05
+
+Версия: `10.0`.
+
+[Оглавление раздела](overview.md) · [Общий индекс](../index.md)
+
+| Статья | Краткое описание | Источник |
+| --- | --- | --- |
+| [Автоматический интерфейс — Термин](automatic-interface-df2ea881a675.md) | Автоматический интерфейс — это интерфейс приложения, который «1С:Предприятие.Элемент» генерирует автоматически и использует в том случае, если в проекте отсутствуют компоненты интерфейса, необходимые для отображения тех или иных частей приложения. | [Raw](../../raw/text-10.0/automatic-interface-df2ea881a675-63226f4f9962580e.md) |
+| [Базовый компонент — Термин](base-component-0ef2c5805773.md) | Базовый компонент — это системный компонент, от которого унаследован компонент интерфейса. | [Raw](../../raw/text-10.0/base-component-0ef2c5805773-d1f691d41f69554e.md) |
+| [Веб-интерфейс — Термин](web-interface-25dbf3b8529c.md) | Веб-интерфейс приложения — это интерфейс, который «Элемент» генерирует при работе веб-клиента в браузере настольного компьютера. | [Raw](../../raw/text-10.0/web-interface-25dbf3b8529c-d3b8b5fa4d374cc9.md) |
+| [Дополнительный командный интерфейс — Термин](additional-command-interface-51c3d7fa0967.md) | Дополнительный командный интерфейс — это часть панели действий. | [Raw](../../raw/text-10.0/additional-command-interface-51c3d7fa0967-f24ea1185494c56d.md) |
+| [Командный интерфейс — Термин](command-interface-0da6ee68041e.md) | Часть пользовательского интерфейса, предназначенная для выполнения команд и навигации по приложению. | [Raw](../../raw/text-10.0/command-interface-0da6ee68041e-37d03aa21c4e092c.md) |
+| [Компонент — Термин](component-eaceb50bdd95.md) | системных компонентов | [Raw](../../raw/text-10.0/component-eaceb50bdd95-61a4d872fd34d5a5.md) |
+| [Компонент интерфейса — Термин](interface-component-79f4346c6140.md) | Компонент интерфейса — это элемент проекта вида **КомпонентИнтерфейса**, унаследованный от системного компонента. | [Raw](../../raw/text-10.0/interface-component-79f4346c6140-c1f9a65db520fe1c.md) |
+| [Мобильный интерфейс — Термин](mobile-interface-842a75f7790c.md) | Мобильный интерфейс приложения — это интерфейс, который «Элемент» генерирует при работе веб-клиента в браузере мобильного устройства и при работе мобильного клиента. | [Raw](../../raw/text-10.0/mobile-interface-842a75f7790c-e23299cf0a9d6af2.md) |
+| [Пользовательский интерфейс — Термин](user-interface-49be894cb32f.md) | Пользовательский интерфейс — это часть приложения, обеспечивающая взаимодействие пользователя с приложением. | [Raw](../../raw/text-10.0/user-interface-49be894cb32f-3f9b2b0747faccf3.md) |
+| [Системный компонент — Термин](system-component-6de48ba8685c.md) | Системный компонент — это любой из типов языка «1С:Элемент», предназначенных для описания пользовательского интерфейса приложения (подробнее). | [Raw](../../raw/text-10.0/system-component-6de48ba8685c-2b633b37b8bc9bea.md) |
+| [Форма — Термин](form-4c22a2fe0e87.md) | Единица разработки и исполнения пользовательского интерфейса. | [Raw](../../raw/text-10.0/form-4c22a2fe0e87-61580a8e6ef376f5.md) |
+| [Форма пользователя — Термин](user-form-be04bb5c5e7f.md) | Форма пользователя — это стандартная форма объекта панели управления, которая содержит информацию о пользователе. | [Raw](../../raw/text-10.0/user-form-be04bb5c5e7f-c157abe07807cf7a.md) |

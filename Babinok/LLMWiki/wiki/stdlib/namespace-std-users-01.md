@@ -1,0 +1,45 @@
+# Стд::Пользователи
+
+> Sources: 1С — документация 1С:Предприятие.Элемент, версия `10.0`
+> Raw: [usercontactkind-ru-15a98bc92397-71439a8062915c94](../../raw/text-10.0/usercontactkind-ru-15a98bc92397-71439a8062915c94.md); [accountsservicekind-ru-2796da8aa88b-a9445fdc99fa2b17](../../raw/text-10.0/accountsservicekind-ru-2796da8aa88b-a9445fdc99fa2b17.md); [secondauthenticationfactor-ru-86002b4dacd8-074bcde9de57bee5](../../raw/text-10.0/secondauthenticationfactor-ru-86002b4dacd8-074bcde9de57bee5.md); [secondauthenticationfactoremail-ru-c6ebe097c1b1-256a966be889b54d](../../raw/text-10.0/secondauthenticationfactoremail-ru-c6ebe097c1b1-256a966be889b54d.md); [secondauthenticationfactorsms-ru-e9643f6730df-202f9b49c231ec7d](../../raw/text-10.0/secondauthenticationfactorsms-ru-e9643f6730df-202f9b49c231ec7d.md); [accesstokenrequestdata-ru-bda6725a6c97-8082930f50abe008](../../raw/text-10.0/accesstokenrequestdata-ru-bda6725a6c97-8082930f50abe008.md); [twofactorauthentication-ru-7665db727c1b-a65d0d26cebcca10](../../raw/text-10.0/twofactorauthentication-ru-7665db727c1b-a65d0d26cebcca10.md); [usertrusteddevice-ru-4816f4de446d-96da481d5dc93220](../../raw/text-10.0/usertrusteddevice-ru-4816f4de446d-96da481d5dc93220.md); [identity-ru-3bdcca3b8920-8f641c18606067e3](../../raw/text-10.0/identity-ru-3bdcca3b8920-8f641c18606067e3.md); [userid-ru-b7bcbf9bb16a-8c367ec0958e40d0](../../raw/text-10.0/userid-ru-b7bcbf9bb16a-8c367ec0958e40d0.md); [paasexception-ru-58e007c03606-c4a0d342bbd78cbe](../../raw/text-10.0/paasexception-ru-58e007c03606-c4a0d342bbd78cbe.md); [usermanagementexception-ru-9741246a36bd-98a553ba66b925b7](../../raw/text-10.0/usermanagementexception-ru-9741246a36bd-98a553ba66b925b7.md); [esiaidentificationmethod-ru-cac5f79e6e81-8cbb14258cac93db](../../raw/text-10.0/esiaidentificationmethod-ru-cac5f79e6e81-8cbb14258cac93db.md); [usersactivationsettings-ru-3848a1474e7f-8b5753eba769edc4](../../raw/text-10.0/usersactivationsettings-ru-3848a1474e7f-8b5753eba769edc4.md); [usersselfregistrationsettings-ru-b39feaead422-e02acf74aa808ea2](../../raw/text-10.0/usersselfregistrationsettings-ru-b39feaead422-e02acf74aa808ea2.md); [accountsservicesettings-ru-413950db82de-cb5a4e6a0f088b17](../../raw/text-10.0/accountsservicesettings-ru-413950db82de-cb5a4e6a0f088b17.md); [esiaaccountsservicesettings-ru-975ae84a8b76-06248015a863cea2](../../raw/text-10.0/esiaaccountsservicesettings-ru-975ae84a8b76-06248015a863cea2.md); [accesstokenrequestdescription-ru-e1d8435c4ea1-068ef6103e62e703](../../raw/text-10.0/accesstokenrequestdescription-ru-e1d8435c4ea1-068ef6103e62e703.md); [serviceuserdescription-ru-3d91adf161ec-17e41c95a7809cb6](../../raw/text-10.0/serviceuserdescription-ru-3d91adf161ec-17e41c95a7809cb6.md); [passwordpolicy-ru-fe7bccc61eff-d63894faa70897ab](../../raw/text-10.0/passwordpolicy-ru-fe7bccc61eff-d63894faa70897ab.md); [users-ru-f417ba72157b-42606b83e8bd462a](../../raw/text-10.0/users-ru-f417ba72157b-42606b83e8bd462a.md); [users-locks-reference-ru-b731c1225f33-cbcda54530d6aee4](../../raw/text-10.0/users-locks-reference-ru-b731c1225f33-cbcda54530d6aee4.md); [users-data-ru-392d64511608-cb2035b285f9811b](../../raw/text-10.0/users-data-ru-392d64511608-cb2035b285f9811b.md); [users-object-ru-5916412d6fa2-3fed901f548f47ae](../../raw/text-10.0/users-object-ru-5916412d6fa2-3fed901f548f47ae.md); [users-reference-ru-a0ccfe80e991-1b26442f5e8b5db7](../../raw/text-10.0/users-reference-ru-a0ccfe80e991-1b26442f5e8b5db7.md); [serviceusers-ru-558e621dc6f7-e78bf4c6f539da7b](../../raw/text-10.0/serviceusers-ru-558e621dc6f7-e78bf4c6f539da7b.md); [authenticationprovider-ru-861f1e5488bd-042034ef67860af4](../../raw/text-10.0/authenticationprovider-ru-861f1e5488bd-042034ef67860af4.md); [accountsservice-ru-6d616f986568-4b29abf7d63b8b96](../../raw/text-10.0/accountsservice-ru-6d616f986568-4b29abf7d63b8b96.md); [userlists-ru-ef3df4f80ede-43ac80215ca197c2](../../raw/text-10.0/userlists-ru-ef3df4f80ede-43ac80215ca197c2.md); [userlist-ru-5baf251efe6c-fcadc658c8c949d4](../../raw/text-10.0/userlist-ru-5baf251efe6c-fcadc658c8c949d4.md); [users-eee22ba38c57-c9ff22c9757663b8](../../raw/text-10.0/users-eee22ba38c57-c9ff22c9757663b8.md); [account-ru-8d5d991f7a51-ace8206246ecd1c8](../../raw/text-10.0/account-ru-8d5d991f7a51-ace8206246ecd1c8.md); [esiaaccount-ru-608d99806686-035176a95690966a](../../raw/text-10.0/esiaaccount-ru-608d99806686-035176a95690966a.md); [smsgateway-ru-890181ae1e8f-c537759aa10d8c3c](../../raw/text-10.0/smsgateway-ru-890181ae1e8f-c537759aa10d8c3c.md); [smtpgateway-ru-dc1563edf2ad-249356f10b42f78c](../../raw/text-10.0/smtpgateway-ru-dc1563edf2ad-249356f10b42f78c.md)
+> Updated: 2026-10-05
+
+Версия: `10.0`.
+
+[Пространства имён](namespaces.md)
+
+- [ВидКонтактаПользователя — Программный тип XBSL: Std / Пользователи](usercontactkind-ru-15a98bc92397.md)
+- [ВидСервисаУчетныхЗаписей — Программный тип XBSL: Std / Пользователи](accountsservicekind-ru-2796da8aa88b.md)
+- [ВторойФакторАутентификации — Программный тип XBSL: Std / Пользователи](../security/secondauthenticationfactor-ru-86002b4dacd8.md)
+- [ВторойФакторАутентификацииПочта — Программный тип XBSL: Std / Пользователи](../security/secondauthenticationfactoremail-ru-c6ebe097c1b1.md)
+- [ВторойФакторАутентификацииСмс — Программный тип XBSL: Std / Пользователи](../security/secondauthenticationfactorsms-ru-e9643f6730df.md)
+- [ДанныеЗапросаТокенаДоступа — Программный тип XBSL: Std / Пользователи](../queries/accesstokenrequestdata-ru-bda6725a6c97.md)
+- [ДвухфакторнаяАутентификация — Программный тип XBSL: Std / Пользователи](../security/twofactorauthentication-ru-7665db727c1b.md)
+- [ДоверенноеУстройствоПользователя — Программный тип XBSL: Std / Пользователи](usertrusteddevice-ru-4816f4de446d.md)
+- [ИдАутентификации — Программный тип XBSL: Std / Пользователи](../security/identity-ru-3bdcca3b8920.md)
+- [ИдПользователя — Программный тип XBSL: Std / Пользователи](userid-ru-b7bcbf9bb16a.md)
+- [ИсключениеPaas — Программный тип XBSL: Std / Пользователи](paasexception-ru-58e007c03606.md)
+- [ИсключениеУправленияПользователями — Программный тип XBSL: Std / Пользователи](usermanagementexception-ru-9741246a36bd.md)
+- [МетодИдентификацииЕсиа — Программный тип XBSL: Std / Пользователи](esiaidentificationmethod-ru-cac5f79e6e81.md)
+- [НастройкиАктивацииПользователей — Программный тип XBSL: Std / Пользователи](usersactivationsettings-ru-3848a1474e7f.md)
+- [НастройкиСамостоятельнойРегистрацииПользователей — Программный тип XBSL: Std / Пользователи](../data/usersselfregistrationsettings-ru-b39feaead422.md)
+- [НастройкиСервисаУчетныхЗаписей — Программный тип XBSL: Std / Пользователи](accountsservicesettings-ru-413950db82de.md)
+- [НастройкиСервисаУчетныхЗаписейЕсиа — Программный тип XBSL: Std / Пользователи](esiaaccountsservicesettings-ru-975ae84a8b76.md)
+- [ОписаниеЗапросаТокенаДоступа — Программный тип XBSL: Std / Пользователи](../queries/accesstokenrequestdescription-ru-e1d8435c4ea1.md)
+- [ОписаниеПользователяСервиса — Программный тип XBSL: Std / Пользователи](serviceuserdescription-ru-3d91adf161ec.md)
+- [ПолитикаПаролей — Программный тип XBSL: Std / Пользователи](passwordpolicy-ru-fe7bccc61eff.md)
+- [Пользователи — Программный тип XBSL: Std / Пользователи](users-ru-f417ba72157b.md)
+- [Пользователи.Блокировки.Ссылка — Программный тип XBSL: Std / Пользователи](users-locks-reference-ru-b731c1225f33.md)
+- [Пользователи.Данные — Программный тип XBSL: Std / Пользователи](users-data-ru-392d64511608.md)
+- [Пользователи.Объект — Программный тип XBSL: Std / Пользователи](users-object-ru-5916412d6fa2.md)
+- [Пользователи.Ссылка — Программный тип XBSL: Std / Пользователи](users-reference-ru-a0ccfe80e991.md)
+- [ПользователиСервиса — Программный тип XBSL: Std / Пользователи](serviceusers-ru-558e621dc6f7.md)
+- [ПоставщикАутентификации — Программный тип XBSL: Std / Пользователи](../security/authenticationprovider-ru-861f1e5488bd.md)
+- [СервисУчетныхЗаписей — Программный тип XBSL: Std / Пользователи](accountsservice-ru-6d616f986568.md)
+- [СпискиПользователей — Программный тип XBSL: Std / Пользователи](userlists-ru-ef3df4f80ede.md)
+- [СписокПользователей — Программный тип XBSL: Std / Пользователи](userlist-ru-5baf251efe6c.md)
+- [Стд::Пользователи — Пространство имён XBSL: Std](users-eee22ba38c57.md)
+- [УчетнаяЗапись — Программный тип XBSL: Std / Пользователи](account-ru-8d5d991f7a51.md)
+- [УчетнаяЗаписьЕсиа — Программный тип XBSL: Std / Пользователи](esiaaccount-ru-608d99806686.md)
+- [ШлюзSms — Программный тип XBSL: Std / Пользователи](smsgateway-ru-890181ae1e8f.md)
+- [ШлюзSmtp — Программный тип XBSL: Std / Пользователи](../integration/smtpgateway-ru-dc1563edf2ad.md)

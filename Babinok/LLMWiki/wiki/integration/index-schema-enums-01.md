@@ -1,0 +1,23 @@
+# Перечисления схем интеграции
+
+> Sources: 1С — документация 1С:Предприятие.Элемент, версия `10.0`
+> Raw: [autooffsetreset-ru-1776ea84afc4-ff77aef3419c7995](../../raw/text-10.0/autooffsetreset-ru-1776ea84afc4-ff77aef3419c7995.md); [channeltype-ru-ae82d22da3c8-6a9b471e5e1abca0](../../raw/text-10.0/channeltype-ru-ae82d22da3c8-6a9b471e5e1abca0.md); [serializationkind-ru-b83b7d164e15-4ca910e12ae428b5](../../raw/text-10.0/serializationkind-ru-b83b7d164e15-4ca910e12ae428b5.md); [existingfileaction-ru-578551ed3769-4a97f804e787a17a](../../raw/text-10.0/existingfileaction-ru-578551ed3769-4a97f804e787a17a.md); [afterreadaction-ru-d489572a6de4-b0fa533aa37b9bc7](../../raw/text-10.0/afterreadaction-ru-d489572a6de4-b0fa533aa37b9bc7.md); [httpmethod-ru-ad471922b472-f6f9402fd0269df6](../../raw/text-10.0/httpmethod-ru-ad471922b472-f6f9402fd0269df6.md); [saslmechanism-ru-17e3d1923d49-f6e6da74c27b634e](../../raw/text-10.0/saslmechanism-ru-17e3d1923d49-f6e6da74c27b634e.md); [linkdirection-ru-114f3e15f9fa-88baae70733048e4](../../raw/text-10.0/linkdirection-ru-114f3e15f9fa-88baae70733048e4.md); [acknowledgementmode-ru-88c147323c87-9fc4a2197edaa201](../../raw/text-10.0/acknowledgementmode-ru-88c147323c87-9fc4a2197edaa201.md); [compressionmode-ru-402ea30ad649-a559a9a532262f72](../../raw/text-10.0/compressionmode-ru-402ea30ad649-a559a9a532262f72.md); [savemessageonbrokerside-ru-4cd70d9c6628-2b9a31e5c2bb0b92](../../raw/text-10.0/savemessageonbrokerside-ru-4cd70d9c6628-2b9a31e5c2bb0b92.md)
+> Updated: 2026-10-05
+
+Версия: `10.0`.
+
+[Оглавление раздела](overview.md) · [Общий индекс](../index.md)
+
+| Статья | Краткое описание | Источник |
+| --- | --- | --- |
+| [АвтоУстановкаСмещения — Перечисление схемы интеграции: IntegrationProcessSchema](autooffsetreset-ru-1776ea84afc4.md) | Режим установки смещения при изменениях в группе потребителей. | [Raw](../../raw/text-10.0/autooffsetreset-ru-1776ea84afc4-ff77aef3419c7995.md) |
+| [ВидКанала — Перечисление схемы интеграции: IntegrationProcessSchema](channeltype-ru-ae82d22da3c8.md) | Реализует модель «точка-точка», где одно сообщение обрабатывается только одним потребителем. | [Raw](../../raw/text-10.0/channeltype-ru-ae82d22da3c8-6a9b471e5e1abca0.md) |
+| [ВидСериализации — Перечисление схемы интеграции: IntegrationProcessSchema](serializationkind-ru-b83b7d164e15.md) | Контракт и документированные сведения: ВидСериализации. | [Raw](../../raw/text-10.0/serializationkind-ru-b83b7d164e15-4ca910e12ae428b5.md) |
+| [ДействиеНадСуществующимФайлом — Перечисление схемы интеграции: IntegrationProcessSchema](existingfileaction-ru-578551ed3769.md) | Что сделает «Элемент», если уже существует файл, в который нужно записать тело сообщения. | [Raw](../../raw/text-10.0/existingfileaction-ru-578551ed3769-4a97f804e787a17a.md) |
+| [ДействиеПослеЧтения — Перечисление схемы интеграции: IntegrationProcessSchema](afterreadaction-ru-d489572a6de4.md) | Определяет действие, которое необходимо выполнить после чтения файла сообщения. | [Raw](../../raw/text-10.0/afterreadaction-ru-d489572a6de4-b0fa533aa37b9bc7.md) |
+| [МетодHttp — Перечисление схемы интеграции: IntegrationProcessSchema](httpmethod-ru-ad471922b472.md) | Метод запроса. | [Raw](../../raw/text-10.0/httpmethod-ru-ad471922b472-f6f9402fd0269df6.md) |
+| [МеханизмSasl — Перечисление схемы интеграции: IntegrationProcessSchema](saslmechanism-ru-17e3d1923d49.md) | Используется модуль `org.apache.kafka.common.security.plain.PlainLoginModule`. | [Raw](../../raw/text-10.0/saslmechanism-ru-17e3d1923d49-f6e6da74c27b634e.md) |
+| [НаправлениеСвязи — Перечисление схемы интеграции: IntegrationProcessSchema](linkdirection-ru-114f3e15f9fa.md) | Контракт и документированные сведения: НаправлениеСвязи. | [Raw](../../raw/text-10.0/linkdirection-ru-114f3e15f9fa-88baae70733048e4.md) |
+| [РежимКвитирования — Перечисление схемы интеграции: IntegrationProcessSchema](acknowledgementmode-ru-88c147323c87.md) | Сообщение считается доставленным, если все сервера в кластере отправили подтверждение о доставке. | [Raw](../../raw/text-10.0/acknowledgementmode-ru-88c147323c87-9fc4a2197edaa201.md) |
+| [РежимСжатия — Перечисление схемы интеграции: IntegrationProcessSchema](compressionmode-ru-402ea30ad649.md) | Определяет алгоритм сжатия сообщения. | [Raw](../../raw/text-10.0/compressionmode-ru-402ea30ad649-a559a9a532262f72.md) |
+| [СохранятьСообщениеНаСторонеБрокера — Перечисление схемы интеграции: IntegrationProcessSchema](savemessageonbrokerside-ru-4cd70d9c6628.md) | Позволяет настроить сохранение сообщений на стороне брокера RabbitMQ. | [Raw](../../raw/text-10.0/savemessageonbrokerside-ru-4cd70d9c6628-2b9a31e5c2bb0b92.md) |
